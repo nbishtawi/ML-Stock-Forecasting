@@ -3,7 +3,9 @@
 ## Overview  
 **ML Stock Forecasting** is a machine learning project that applies predictive modeling techniques to financial time series data. The goal is to forecast stock price trends by combining data preprocessing, feature engineering, and model evaluation.  
 
-This project was originally developed under the name *ValueInvestor* and has now been refactored and documented for clarity, reproducibility, and professional presentation.  
+This project was originally developed under the name *ValueInvestor* and has now been refactored and documented for clarity, reproducibility, and professional presentation.
+
+Note: The datasets used in this project are proprietary and confidential  and therefore not included in this repository.
 
 ---
 
