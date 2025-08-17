@@ -26,14 +26,14 @@ Note: The datasets used in this project are proprietary and confidential  and th
 ## Methodology  
 1. **Data Ingestion** – Stock datasets loaded from multi-sheet Excel files.  
 2. **Feature Engineering** – Includes moving averages, volatility, Bollinger Bands, and local maxima for trading signals.  
-3. **Modeling** –  
+3. **Modeling** 
    - Implemented **LSTM (Long Short-Term Memory)** neural networks for time series forecasting.  
    - Applied dropout layers to prevent overfitting.  
    - Tuned hyperparameters using **GridSearchCV + KerasRegressor**.  
-4. **Evaluation** –  
+4. **Evaluation** 
    - Measured accuracy with RMSE and MAPE.  
    - Tested BUY / SELL / HOLD recommendation logic.  
-5. **Scenarios Tested** –  
+5. **Scenarios Tested** 
    - *Single Sheet Model*: Prototype and trading strategy validation.  
    - *All Sheets Model*: Applied forecasting pipeline across multiple stock datasets.  
 
@@ -44,3 +44,12 @@ Note: The datasets used in this project are proprietary and confidential  and th
 - Integration of technical indicators (e.g., Bollinger Bands) provided interpretable BUY/HOLD/SELL signals.  
 - Demonstrated potential to maximize capital returns through data-driven forecasting. 
 
+---
+
+## Repository Structure
+```
+ML-Stock-Forecasting/
+├── All sheets model Application.ipynb # Full model pipeline across multiple sheets
+├── Single Sheet Model test.ipynb # Prototype with a single data sheet
+└── README.md # Project documentation
+```
